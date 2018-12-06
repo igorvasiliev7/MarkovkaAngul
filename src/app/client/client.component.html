@@ -2,7 +2,7 @@
   Hello from clients
 </p>
 
-<table class="table table-dark">
+<table class="table table-light">
   <thead>
   <tr>
     <th scope="col">id</th>
@@ -13,12 +13,12 @@
   </tr>
   </thead>
   <tbody >
-  <tr *ngFor="let c of clients">
-    <th >{{c.id}}</th>
-    <td>{{c.name}}</td>
-    <td>{{c.phone}}</td>
-    <td>{{c.status}}</td>
-    <td>{{c.card}}</td>
+  <tr *ngFor="let s of clients">
+    <th >{{s.id}}</th>
+    <td>{{s.name}}</td>
+    <td>{{s.phone}}</td>
+    <td>{{s.status}}</td>
+    <td>{{s.card}}</td>
   </tr>
   </tbody>
 </table>

@@ -3,7 +3,7 @@ import {Observable} from 'rxjs';
 import {HttpClient} from '@angular/common/http';
 import {Call} from '../model/call';
 
-const API = 'http://localgost:8080/api';
+const API = 'http://localhost:8080/api';
 
 @Injectable()
 export class CallService {
