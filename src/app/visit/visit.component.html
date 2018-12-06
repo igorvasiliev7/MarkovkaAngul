@@ -1,0 +1,24 @@
+<p align="center">
+  Hello from visits
+</p>
+
+<table class="table table-dark">
+  <thead>
+  <tr>
+    <th scope="col">id</th>
+    <th scope="col">clientId</th>
+    <th scope="col">date</th>
+    <th scope="col">amount</th>
+    <th scope="col">master</th>
+  </tr>
+  </thead>
+  <tbody >
+  <tr *ngFor="let c of visits">
+    <th >{{c.id}}</th>
+    <td>{{c.clientId}}</td>
+    <td>{{c.date}}</td>
+    <td>{{c.amount}}</td>
+    <td>{{c.master}}</td>
+  </tr>
+  </tbody>
+</table>
