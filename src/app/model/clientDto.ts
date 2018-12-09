@@ -1,11 +1,12 @@
 export class ClientDto {
   clientId: number;
-  name: string;
-  phone: string;
-  status: string;
+  clientName: string;
+  clientPhone: string;
+  clientStatus: string;
   card: number;
   lastCallDate: string;
   comment: string;
   visitDate: string;
-  visitSum: number;
+  visitsSum: number;
+  master: string;
 }

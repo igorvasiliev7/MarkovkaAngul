@@ -5,20 +5,28 @@
 <table class="table table-light">
   <thead>
   <tr>
-    <th scope="col">id</th>
-    <th scope="col">name</th>
-    <th scope="col">phone</th>
-    <th scope="col">status</th>
-    <th scope="col">card</th>
+    <th scope="col">Ім'я</th>
+    <th scope="col">Телефон</th>
+    <th scope="col">Статус</th>
+    <th scope="col">Картка</th>
+    <th scope="col">Дзвінок</th>
+    <th scope="col">Комментар</th>
+    <th scope="col">Візит</th>
+    <th scope="col">Сума</th>
+    <th scope="col">Майстер</th>
   </tr>
   </thead>
   <tbody >
   <tr *ngFor="let s of clients">
-    <th >{{s.id}}</th>
-    <td>{{s.name}}</td>
-    <td>{{s.phone}}</td>
-    <td>{{s.status}}</td>
+    <td>{{s.clientName}}</td>
+    <td>{{s.clientPhone}}</td>
+    <td>{{s.clientStatus}}</td>
     <td>{{s.card}}</td>
+    <td>{{s.lastCallDate}}</td>
+    <td>{{s.comment}}</td>
+    <td>{{s.visitDate}}</td>
+    <td>{{s.visitsSum}}</td>
+    <td>{{s.master}}</td>
   </tr>
   </tbody>
 </table>
